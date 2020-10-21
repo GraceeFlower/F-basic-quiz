@@ -2,11 +2,11 @@ import axios from "axios";
 
 const BASIC_URL = "http://localhost:8080";
 
-const getProfile = (apiURL) => {
+const getProfile = (apiUrl) => {
   return axios
-    .get(`${BASIC_URL}/${apiURL}`)
+    .get(`${BASIC_URL}/${apiUrl}`)
     .then((res) => res.data)
-    .catch((err) => err);
+    .catch(() => "");
 };
 
 export { BASIC_URL, getProfile };
