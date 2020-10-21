@@ -3,34 +3,42 @@
 @import "reboot";
 
 .container {
-  margin: 120px 72px;
+  margin: 120px 65px;
+  padding: 30px;
   background-color: $white;
 }
 
 .profile {
   position: relative;
   margin: 0;
-  padding: 75px 0 10px;
+  padding: 70px 0 10px;
   text-align: center;
   font-family: sans-serif;
   font-weight: bold;
-  border-bottom: 2px solid $gray;
+  border-bottom: 3px solid $gray-light;
 }
 
 .profile-avatar {
   position: absolute;
   width: 150px;
   height: 150px;
-  top: -75px;
+  top: -105px;
   left: calc(50% - 75px);
   border-radius: 50%;
 }
 
 .profile-title {
-  margin: 10px 0;
   font-size: 2.5em;
 }
 
 .profile-detail {
   font-size: 1.5em;
+}
+
+.about-me {
+  margin: 20px 0;
+}
+
+.section-header {
+  color: $primary-color;
 }
