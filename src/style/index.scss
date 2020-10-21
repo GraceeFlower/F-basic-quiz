@@ -5,6 +5,7 @@
 .container {
   margin: 120px 65px;
   padding: 30px;
+  min-height: 788px;
   background-color: $white;
 }
 
@@ -45,4 +46,27 @@
 
 .about-detail {
   font-size: 1.5em;
+}
+
+.educations h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.educations {
+  margin-top: 30px;
+}
+
+.education {
+  display: flex;
+  margin-bottom: 20px;
+  font-size: 1.3em;
+}
+
+.edu-content {
+  padding: 10px 20px;
+  margin-left: 5%;
+  width: 100%;
+  background-color: $gray-light;
 }

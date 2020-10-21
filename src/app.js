@@ -17,8 +17,10 @@ const initEducation = (educations) => {
   educations.reduce((pre, cur, index) => {
     educationDetail.innerHTML += `<li class="education" id=${index}>
        <aside class="edu-year">${cur.year}</aside>
-       <h3 class="edu-title">${cur.title}</h3>
-       <p class="edu-description">${cur.description}</p>
+       <article class="edu-content">
+         <h3 class="edu-title">${cur.title}</h3>
+         <p class="edu-description">${cur.description}</p>
+       </article>
      </li>`;
     return pre;
   }, "");
