@@ -43,5 +43,9 @@
   "lint-staged": {
     "*.js": "eslint \"src/\" --cache --fix --format table",
     "*.{js,css,scss,html}": "prettier --write"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "babel-polyfill": "^6.26.0"
   }
 }
