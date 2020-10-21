@@ -3,7 +3,7 @@
 @import "reboot";
 
 .container {
-  margin: 120px 65px;
+  margin: 120px 80px 20px;
   padding: 30px;
   min-height: 788px;
   background-color: $white;
@@ -33,6 +33,7 @@
 }
 
 .profile-detail {
+  margin-top: 20px;
   font-size: 1.5em;
 }
 

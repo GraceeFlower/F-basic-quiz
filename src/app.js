@@ -28,3 +28,5 @@ const initEducation = (educations) => {
 
 getProfile().then((user) => initProfile(user));
 getEducations().then((educations) => initEducation(educations));
+
+export { initProfile, initEducation };
